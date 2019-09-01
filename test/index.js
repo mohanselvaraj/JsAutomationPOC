@@ -48,7 +48,7 @@ describe('Add todo Lists', function () {
  
         driver.findElement(webdriver.By.xpath('/html/body/div/div/div/ul/li[6]/span')).then(function (foundElement) {
                 foundElement.getText().equal("Yey, Let's add it to list");
-            });;
+            });
       driver.executeScript("lambda-status=passed");
         driver.quit();  
     });
