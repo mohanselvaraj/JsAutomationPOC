@@ -1,0 +1,16 @@
+{
+  "name": "nodetest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha"
+  },
+  "author": "mselvaraj",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^76.0.1",
+    "selenium-webdriver": "^4.0.0-alpha.4",
+    
+  }
+}
